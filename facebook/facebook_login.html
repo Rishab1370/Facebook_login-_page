@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/js/face_book.js"></script>
+    <script src="/js/script.js"></script>
+     <link rel="stylesheet" href="css/style1.css" type="text/css" />
+     <link rel="stylesheet" href="css/fac_book.css" type="text/css"/>
+</head>
+<body>
+    <div id="grand">
+        <div id="left">
+        <span>facebook</span><br/>
+        <div id="recent">
+        <span>Recent logins</span>
+        <p style="color:rgb(109, 108, 108); margin-left: 17%;margin-top: 1%;">Click your picture or add an account.</p>
+        </div>
+        <div id="photo">
+            <div class="card1">
+                <img src="image/Pro.jpg" alt="path is wrong" height="160px" width="150px"/>
+                <p style="color: rgb(77, 76, 76); text-align: center;margin-top: 2%;">Rishabh Tiwari</p>
+            </div>
+            <div class="card2">
+                <div id="add">
+                <img src="image/icon.png" alt="path is wrong" height="40px" width="40px"/>
+                </div>
+                <p style="color: rgb(46, 100, 247); text-align: center;margin-top: 5%;font-weight:500; font-family: sans-serif;">Add Account</p>
+            </div>
+        </div>
+    </div>
+    <div id="login">
+      <div id="inner1">
+          <input id="inbox1" type="email" placeholder="Email address or phone number" required/><br/>
+          <input id="inbox2" type="password" placeholder="Password" required/>
+          <button id="inbox3">Log in</button>
+          <p style="color:rgb(46, 100, 247); font-size: 17px;">Forgotten password?</p>
+          <hr/>
+
+          <!-- modal- start-------- -->
+
+          <button type="button" class="btn btn-primary" id="inbox4" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create Account</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div style=" height: 50px; width: 150px;text-align: left;">
+        <span class="modal-title fs-5" id="exampleModalLabel" style="font-weight: bolder;">Sign Up</span><br>
+          <span style="font-size: 15px;">It's quick and easy</span>
+          </div>
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <table id="table1">
+            <tr >
+            <td colspan="1.5">  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name"></td>
+             <td colspan="1.5"><input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Surname"></td>
+            
+            </tr>
+            <tr>
+              <td colspan="3" style="width: 100%;">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mobile numaber or email address">
+               </td>
+               <td></td>
+              </tr>
+            <tr>
+              <td colspan="3">  <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="New password"></td>
+            </tr>
+            </table>
+            <table id="table2">
+            <tr style="text-align: left;">
+              <td colspan="3"> <label for="exampleFormControlInput1" class="form-label" style="text-align: left;">Date of birth <span id="dob">?</span></label></td>
+            </tr>
+            <tr>
+              <td>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>19</option>
+                  <option value="1">20</option>
+                  <option value="2">21</option>
+                  <option value="3">22</option>
+                </select>
+            </td>
+            <td>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Feb</option>
+                <option value="1">Mar</option>
+                <option value="2">Apr</option>
+                <option value="3">May</option>
+                <option value="3">June</option>
+                <option value="3">Jule</option>
+              </select>
+          </td>
+          <td>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>2024</option>
+              <option value="1">2023</option>
+              <option value="2">2022</option>
+              <option value="3">2021</option>
+              <option value="3">2020</option>
+            </select>
+        </td>
+            </tr>
+            <tr style="text-align: left;">
+              <td colspan="3"> <label for="exampleFormControlInput1" class="form-label" style="text-align: left;">Gender <span id="dob">?</span></label></td>
+            </tr>
+            <tr>
+              <td><div class="input-group">
+                <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Female">
+                <div class="input-group-text">
+                  <input class="form-check-input mt-0" type="radio" value="" name="A" aria-label="Radio button for following text input">
+                </div>
+              </div></td>
+
+              <td><div class="input-group">
+                <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Male">
+                <div class="input-group-text">
+                  <input class="form-check-input mt-0" type="radio" value="" name="A" aria-label="Radio button for following text input">
+                </div>
+              </div></td>
+
+              <td><div class="input-group">
+                <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Custom">
+                <div class="input-group-text">
+                  <input class="form-check-input mt-0" type="radio" value="" name="A" aria-label="Radio button for following text input">
+                </div>
+              </div></td>
+            </tr>
+            <tr style="text-align: left;">
+              <td colspan="3" >
+                <p id="footer-line"> <br> People who use our service may have uploaded your contact information to <br> Facebook. Learn more.
+                  <br><br>
+                By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. <br> You may receive SMS notifications from us and can opt out at any time.</p>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <div class="modal-footer Sign-btn">
+        <button type="button" id="inbox5" class="btn btn-primary">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal end----------- -->
+
+    </div>
+</div>
+    <div class="foot">
+       <p><b>Create a Page</b>for a celebrity,brand or business.</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,174 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(240,242,245);
+}
+#grand{
+    margin-top: 0%;
+    height: 500px;
+    width:1265px;
+    border: 1px solid rgb(240, 242, 245);
+}
+#left{
+height: 400px;
+width: 400px;
+/* border: 1px solid; */
+margin-top: 8%;
+float: left;
+margin-left: 100px;
+}
+#left span{
+color: rgb(46, 100, 247);
+font-family: sans-serif;
+font-weight:bold;
+font-size: 30px;
+margin-left: 13%;
+}
+#recent{
+height: 50px;
+width: 350px;
+margin-top: 1%;
+/* border:1px solid; */
+}
+#recent span{
+color: black;
+font-size: 20px;
+font-weight: normal;
+margin-left: 17%;
+font-family: sans-serif;
+}
+#photo{
+height: 250px;
+width: 500px;
+/* border: 1px solid; */
+}
+.card1{
+height: 200px;
+width:150px;
+float: left;
+border-radius: 10px;
+background-color: #fff;
+box-shadow: 0px 4px 8px rgb(137, 149, 160);
+margin: 20px 10px 20px 50px;
+/* border: 1px solid; */
+}
+.card1 img{
+border-radius: 10px 10px 0px 0px;
+}
+.card2{
+height: 200px;
+width:150px;
+text-align: center;
+float: left;
+border-radius: 10px;
+background-color: #fff;
+box-shadow: 0px 4px 8px rgb(137, 149, 160);
+margin: 20px 10px 20px 10px;
+}
+#add{
+height: 160px;
+width: 150px;
+border-radius:  10px 10px 0px 0px;
+background-color: rgb(224, 230, 236);
+/* border: 1px solid; */
+}
+#add img{
+margin-top: 40%;
+}
+#login{
+height: 300px;
+width: 350px;
+margin-top: 12%;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgb(137, 149, 160);
+padding: 5px;
+margin-left: 25%;
+float: left;
+}
+#inner1{
+height: 300px;
+width:330px;
+margin-left: 8px;
+/* border: 1px solid; */
+text-align: center;
+}
+#inbox1{
+height: 40px;
+width:320px;
+margin-top: 3%;
+padding: 3px;
+border: 1px solid grey;
+border-radius:5px;
+}
+#inbox2{
+height: 40px;
+width:320px;
+padding: 3px;
+margin-top:3%;
+border: 1px solid grey;
+border-radius:5px;
+}
+#inbox3{
+height: 40px;
+width:325px;
+margin-top:3%;
+font-size: 22px;
+color: #fff;
+background-color:rgb(46, 100, 247) ;
+border: 1px solid grey;
+border-radius: 5px;
+}
+#inbox4{
+height: 40px;
+width:200px;
+margin-top:3%;
+font-size: 18px;
+color: #fff;
+background-color:rgb(40, 198, 40);
+border: 1px solid grey;
+border-radius: 5px;
+}
+#inbox5{
+  height: 40px;
+  width:200px;
+  margin-top:3%;
+  font-size: 18px;
+  color: #fff;
+  background-color:rgb(46, 188, 46);
+  border: 1px solid grey;
+  border-radius: 5px;
+  }
+  #inbox5:hover{
+    background-image: linear-gradient(rgb(46, 188, 46), rgb(63,96,63));
+    opacity: 0.6;
+  }
+.foot{
+height: 40px;
+width: 350px;
+text-align: center;
+margin-top: 38%;
+margin-left: 65%;
+/* border: 1px solid; */
+}
+#table1 tr td{
+  padding-top: 5px;
+  padding-bottom: 5px;
+} 
+#dob{
+  background-color: rgb(70, 70, 70); 
+  color: #fff;
+  border-radius: 50%;
+  padding-left:7px;
+  padding-right: 7px;
+}
+#footer-line{
+  color: gray;
+  padding: 0;
+  font-size: 13px;
+  text-align: left;
+}
+.Sign-btn{
+  margin-right: 30%;
+  border-top: none;
+}
